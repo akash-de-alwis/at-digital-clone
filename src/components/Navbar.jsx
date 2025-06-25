@@ -38,9 +38,9 @@ function Navbar() {
       )}
 
       {/* Desktop Navbar */}
-      <div className="desktop-navbar d-none d-lg-flex bg-primary py-4 fixed-top w-100">
+      <div className="desktop-navbar d-none d-lg-flex bg-4F46E5 py-4 fixed-top w-100">
         <div className="container d-flex justify-content-between align-items-center">
-          <img src={logo} alt="Logo" height="30" />
+          <img src={logo} alt="Logo" height="30" style={{ marginRight: '20px', marginLeft: '-40px' }} />
           <nav className="d-flex gap-4">
             <a href="#" className="text-white text-decoration-none">SERVICES</a>
             <a href="#" className="text-white text-decoration-none">ABOUT US</a>

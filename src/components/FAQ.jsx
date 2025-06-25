@@ -31,7 +31,7 @@ function FAQ() {
 
   return (
     <Container className="my-5 #FAF8FF py-5">
-      <h3 className="text-primary text-center mb-4">Frequently asked questions</h3>
+      <h3 style={{ color: '#4F46E5' }} className="text-center mb-4">Frequently asked questions</h3>
       <Accordion activeKey={activeKey}>
         {faqs.map((faq) => (
           <Accordion.Item eventKey={faq.key} key={faq.key}>
