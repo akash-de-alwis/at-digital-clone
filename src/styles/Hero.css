@@ -1,0 +1,72 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  margin-top: 64px; /* Push below fixed navbar */
+}
+
+@media (min-width: 992px) {
+  .hero-section {
+    margin-top: 72px; /* For taller desktop navbar */
+  }
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-content {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  transform: translateY(-50%);
+  background: linear-gradient(to right, #1CBDDD, #4DCA79);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 420px;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.consult-btn {
+  background-color: #F28D35 !important;
+  border-color: #F28D35 !important;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 576px) {
+  .hero-content {
+    position: static;
+    transform: none;
+    background: linear-gradient(to right, #1CBDDD, #4DCA79);
+    border-radius: 0;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .hero-content h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .consult-btn {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}

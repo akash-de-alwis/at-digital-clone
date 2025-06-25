@@ -1,0 +1,9 @@
+/* Mobile view only */
+@media (max-width: 576px) {
+  .services-btn {
+    display: block;
+    margin: 20px auto 0 auto; 
+    text-align: center !important;
+    width: fit-content;
+  }
+}
